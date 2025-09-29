@@ -1,8 +1,3 @@
-Got it ✅ Let’s craft a **professional and advanced `README.md`** for your GitHub repo.
-This will look polished, highlight your skills, and guide users through your project like a real-world data science portfolio.
-
----
-
 # 📊 CORD-19 Metadata Analysis & Interactive Explorer
 
 [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-ff4b4b)](https://streamlit.io/)
@@ -27,13 +22,12 @@ This project explores the **CORD-19 metadata dataset** (COVID-19 research papers
 Frameworks_Assignment/
 │
 ├── notebooks/                  # Jupyter notebooks for step-by-step analysis
-│   ├── Part1_Data_Exploration.ipynb
-│   ├── Part2_Data_Cleaning.ipynb
-│   ├── Part3_Analysis_Visualization.ipynb
-│   └── Part5_Reflection.ipynb
+│   ├── Data Cleaning & Preparation.ipynb
+│   ├── exploration.ipynb
 │
 ├── app.py                      # Streamlit application
-├── metadata_clean.csv          # Cleaned dataset (sample from Kaggle CORD-19)
+|── data
+|    ├── cord19_cleaned.csv          # Cleaned dataset (sample from Kaggle CORD-19)
 ├── requirements.txt            # Dependencies
 └── README.md                   # Project documentation
 ```
@@ -45,8 +39,8 @@ Frameworks_Assignment/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Frameworks_Assignment.git
-cd Frameworks_Assignment
+git clone https://github.com/olanak/PLP-python-frameworks-Assignment.git
+cd PLP-python-frameworks-Assignment
 ```
 
 ### 2️⃣ Install Dependencies
@@ -89,22 +83,6 @@ streamlit run app.py
   * Titles average 8–15 words
   * Abstracts vary from ~50–300 words
   * Frequent terms: *COVID-19*, *coronavirus*, *infection*, *respiratory*
-
----
-
-## 📷 Sample Visualizations
-
-### Publications by Year
-
-![Publications by Year](docs/publications_by_year.png)
-
-### Word Cloud of Titles
-
-![Word Cloud](docs/wordcloud_titles.png)
-
-### Top Journals
-
-![Top Journals](docs/top_journals.png)
 
 ---
 
